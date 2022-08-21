@@ -2061,7 +2061,7 @@
    *  LF --------- RF   LF --------- RF    LF --------- RF   LF --------- RF
    */
   #define BED_TRAMMING_LEVELING_ORDER { LB, LF }
-  #define BED_TRAMMING_CORNERS_COUNT 3 // Points to be used
+  #define BED_TRAMMING_COUNT 3 // Points to be used
 
 #endif
 

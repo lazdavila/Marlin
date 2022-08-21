@@ -55,6 +55,7 @@ enum menuID : uint8_t {
       ZOffset,
       Preheat,
       ChangeFilament,
+      HostActions,
       MenuCustom,
     Control,
       TempMenu,
