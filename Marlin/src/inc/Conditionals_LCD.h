@@ -493,6 +493,13 @@
   #if ENABLED(DWIN_LCD_PROUI)
     #define LCD_BRIGHTNESS_DEFAULT 127
   #endif
+
+  #if ENABLED(DWIN_CREALITY_LCD_JYERSUI)
+    #define USE_STOCK_DWIN_SET // Needed to display customised DWIN_SET's
+                               // Flashed to LCD as per:
+                               // https://github.com/Jyers/Marlin/tree/bugfix-JyersUI/Display%20firmware)
+  #endif
+
 #endif
 
 #if HAS_WIRED_LCD
