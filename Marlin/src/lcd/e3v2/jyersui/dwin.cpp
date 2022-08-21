@@ -1762,7 +1762,7 @@ void CrealityDWINClass::Menu_Item_Handler(uint8_t menu, uint8_t item, bool draw/
             else adjust_bed_at_tramming_point(tramming_point.pos, mlev_z_pos, use_probe); \
           break;
 
-        REPEAT_1(LEVEL_CORNERS_COUNT, _MLEVEL_POINT_CASE)
+        REPEAT_1(BED_TRAMMING_COUNT, _MLEVEL_POINT_CASE)
  
         case MLEVEL_C:
           if (draw)
